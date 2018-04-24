@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<title>Blackjack</title>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 	<script src="blackjack.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -13,26 +13,24 @@
 <body>
 	<div id="table">
 		<div id="messages"></div>
-		<label>Dealer: <span id="dealer-total"></span> </label>
+		<label>Dealer: </label>
 		<label id="dealer-points" class="points"></label>
 		<div id="dealer-hand" class="hand">
 
-
 		</div>
-		<label>Player: <span id="player-total"></span> </label>
+		<label>Player: </label>
 		<label id="player-points" class="points"></label>
 		<div id="player-hand" class="hand">
 
-
 		</div>
 		<div class="buttons">
-			<button id="deal-button">Deal</button>
-			<button id="hit-button">Hit</button>
-			<button id="stand-button">Stand</button>
+			<button id="deal-button" class="d_h_s">Deal</button>
+			<button id="hit-button" class="d_h_s">Hit</button>
+			<button id="stand-button" class="d_h_s">Stand</button>
+			<button id="new-game">New Game</button>
 		</div>
 	</div>
 
 </body>
 
 </html>
-
